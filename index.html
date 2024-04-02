@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="">
+        <h1>Cadastro</h1>
+        <h3>Nomes:</h3>
+        <label for="pnome">Nome:</label>
+        <input type="text" id="pnome" name="pnome" required>
+        <br>
+        <label for="unome">Sobrenome:</label>
+        <input type="text" id="unome" name="unome" required>
+
+        <h3>Sexo</h3>
+        <input type="radio" name="idsexo" id="idsexo1" value="M">
+        <label for="idsexo1">Masculino</label>
+        <br>
+        <input type="radio" name="idsexo" id="idsexo2" value="F">
+        <label for="idsexo2">Feminino</label>
+        <br>
+        <input type="radio" name="idsexo" id="idsexo3" value="NIF">
+        <label for="idsexo3">Nao Identificado</label>
+        
+        <h3>Conhecimento de Linguagens</h3>
+        <input type="checkbox" name="idc" id="idc">
+        <label for="idc">C</label>
+        <br>
+        <input type="checkbox" name="idc#" id="idc#">
+        <label for="idc#">C#</label>
+        <br>
+        <input type="checkbox" name="idc++" id="idc++">
+        <label for="idc++">C++</label>
+        <br>
+        <input type="checkbox" name="idpyton" id="idpyton">
+        <label for="idpyton">Pyton</label>
+        <br>
+        <input type="checkbox" name="idjava" id="idjava">
+        <label for="idjava">Java</label>
+        <br>
+        <input type="checkbox" name="idjavascript" id="idjavascript">
+        <label for="idjavascript">JavaScript</label>
+
+        <h3>Escolaridade</h3>
+        <input type="radio" name="idesc" id="idfundamental">
+        <label for="idfundamental">Fundamental</label>
+        <br>
+        <input type="radio" name="idesc" id="idmedio">
+        <label for="idmedio">Médio</label>
+        <br>
+        <input type="radio" name="idesc" id="idsuperior">
+        <label for="idsuperior">Superior (Graduação)</label>
+        <br>
+        <input type="radio" name="idesc" id="idposgraduacao">
+        <label for="idposgraduacao">Pós-graduação</label>
+        <br>
+        <input type="radio" name="idesc" id="idmestrado">
+        <label for="idmestrado">Mestrado</label>
+        <br>
+        <input type="radio" name="idesc" id="iddoutorado">
+        <label for="iddoutorado">Doutorado</label>
+        <br>
+
+        <h3>Informações Adicionais</h3>
+        <label for="idemail">Email:</label>
+        <input type="email" id="idemail" name="idemail" required>
+        <br>
+        <label for="idtelefone">Telefone:</label>
+        <input type="tel" id="idtelefone" name="idtelefone" pattern="[0-9]*" placeholder="Apenas números" required>
+        <br>
+        <label for="idendereco">Endereço:</label>
+        <input type="text" id="idendereco" name="idendereco" required>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
